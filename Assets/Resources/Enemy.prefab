@@ -133,6 +133,30 @@ PrefabInstance:
       propertyPath: m_PresetInfoIsWorld
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2813273576676203877, guid: 6d0af60a3ed41f44791de700339b0c60, type: 3}
+      propertyPath: m_fontSize
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 2813273576676203877, guid: 6d0af60a3ed41f44791de700339b0c60, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 4511980777786078190, guid: 6d0af60a3ed41f44791de700339b0c60, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.94189876
+      objectReference: {fileID: 0}
+    - target: {fileID: 4511980777786078190, guid: 6d0af60a3ed41f44791de700339b0c60, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 188.06963
+      objectReference: {fileID: 0}
+    - target: {fileID: 4511980777786078190, guid: 6d0af60a3ed41f44791de700339b0c60, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.36796
+      objectReference: {fileID: 0}
+    - target: {fileID: 4511980777786078190, guid: 6d0af60a3ed41f44791de700339b0c60, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7037626626893462337, guid: 6d0af60a3ed41f44791de700339b0c60, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
