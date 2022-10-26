@@ -177,11 +177,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyName: Enemy
-  moveSpeed: 3
+  moveSpeed: 20
   curHp: 10
   maxHp: 10
-  chaseRange: 5
-  attackRange: 1.5
+  chaseRange: 8
+  attackRange: 4
   playerDetectRate: 0.2
   objectToSpawnOnDeath: GoldPickup
   damage: 5
@@ -318,7 +318,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8061782148746989454, guid: 6d0af60a3ed41f44791de700339b0c60, type: 3}
       propertyPath: m_Name
-      value: HiddenInfo
+      value: HeaderInfo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d0af60a3ed41f44791de700339b0c60, type: 3}
