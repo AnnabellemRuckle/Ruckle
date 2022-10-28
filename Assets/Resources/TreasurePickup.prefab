@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6536180638552268016}
   - component: {fileID: 3825360461918511589}
   - component: {fileID: 9030154750822697120}
-  - component: {fileID: 7732525499869889404}
   - component: {fileID: 5019972806174803062}
   m_Layer: 0
   m_Name: TreasurePickup
@@ -101,20 +100,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &7732525499869889404
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6435107359325551052}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c66e3c616b040046b3985ee7b38ee98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 0
-  value: 50
 --- !u!114 &5019972806174803062
 MonoBehaviour:
   m_ObjectHideFlags: 0

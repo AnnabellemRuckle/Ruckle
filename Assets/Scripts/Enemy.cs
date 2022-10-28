@@ -125,7 +125,7 @@ public class Enemy : MonoBehaviourPun
         {
             sr.color = Color.red;
             yield return new WaitForSeconds(0.05f);
-            sr.color = Color.white;
+            sr.color = Color.black;
         }
     }
 

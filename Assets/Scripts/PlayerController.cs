@@ -32,6 +32,8 @@ public class PlayerController : MonoBehaviourPun
     // local player
     public static PlayerController me;
 
+    public GameObject item;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -171,4 +173,17 @@ public class PlayerController : MonoBehaviourPun
         // update the ui
         GameUI.instance.UpdateGoldText(gold);
     }
+    private float speedMultiplier;
+
+    public void BoostSpeed(float multiplier, float seconds)
+    {
+        speedMultiplier = multiplier;
+        moveSpeed *= multiplier;
+        Invoke("EndSpeedBoost", seconds);
+    }
+
+
+
+
+
 }
